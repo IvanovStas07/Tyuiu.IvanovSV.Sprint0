@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Tyuiu.IvanovSV.Sprint0.Task1.V0
-//{
+{
     internal class Program
     {
         static void Main(string[] args)
