@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{554CCD94-2789-4059-8541-CB2FB0AA098D}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <ProjectGuid>{2BBFC319-58F6-4B3D-B508-2985597261D7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <RootNamespace>Tyuiu.IvanovSV.Sprint0.Task6.V0</RootNamespace>
     <AssemblyName>Tyuiu.IvanovSV.Sprint0.Task6.V0</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -45,8 +47,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.IvanovSV.Sprint0.Task6.V0.Lab\Tyuiu.IvanovSV.Sprint0.Task6.V0.Lib.csproj">
-      <Project>{6F62E312-6D0E-48B5-B0C1-D97B76E8350D}</Project>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.IvanovSV.Sprint0.Task6.V0.Lib\Tyuiu.IvanovSV.Sprint0.Task6.V0.Lib.csproj">
+      <Project>{30A02D06-D196-4611-92C0-7B4E56848717}</Project>
       <Name>Tyuiu.IvanovSV.Sprint0.Task6.V0.Lib</Name>
     </ProjectReference>
   </ItemGroup>

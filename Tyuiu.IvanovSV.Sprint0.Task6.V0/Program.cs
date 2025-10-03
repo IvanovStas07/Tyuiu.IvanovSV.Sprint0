@@ -11,17 +11,15 @@ namespace Tyuiu.IvanovSV.Sprint0.Task6.V0
     {
         static void Main(string[] args)
         {
-            int[] arraynums = new int[] { 1, 2, 3, 4, 5 };
+            int[] numsArray = new int[] { 1, 2, 3, 4, 5 };
 
-            Console.WriteLine("Сумма элементов массива = " + DataService.AdditionArray(arraynums));
+            Console.WriteLine("Сумма элементов массива = " + DataService.AdditionArray(numsArray));
 
-            Console.WriteLine("Разность элементов массива = " + DataService.SubstractionArray(arraynums));
+            Console.WriteLine("Разность элементов массива = " + DataService.SubtractionArray(numsArray));
 
-            Console.WriteLine("Произведение элементов массива = " + DataService.MultiplicationArray(arraynums));
+            Console.WriteLine("Произведение элементов массива = " + DataService.MultiplicationArray(numsArray));
 
             Console.ReadKey();
-        
         }
-        
     }
 }

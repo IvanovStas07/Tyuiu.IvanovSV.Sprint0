@@ -1,7 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using Tyuiu.IvanovSV.Sprint0.Task6.V0.Lib;
 
-namespace Tyuiu.IvanovSV.Sprint0.Task6.V0.Test
+namespace using_Tyuiu.IvanovSV.Sprint0.Task6.V0.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -14,12 +15,13 @@ namespace Tyuiu.IvanovSV.Sprint0.Task6.V0.Test
             Assert.AreEqual(15, res);
         }
         [TestMethod]
-        public void CheckSubtractionArrayValid()
+        public void CheckSubstractionArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.SubstractionArray(numbers);
+            var res = DataService.SubtractionArray(numbers);
             Assert.AreEqual(-15, res);
         }
+
         [TestMethod]
         public void CheckMultArrayValid()
         {
